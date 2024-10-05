@@ -1,0 +1,64 @@
+
+.drop-text{
+    position: fixed;
+    transform: translate(10px,50px);
+}
+
+#motor{
+    position: fixed;
+    transform: translate(260%,-44%);
+    animation: motor 2s 1;
+}
+
+@keyframes motor{
+    from{
+        transform: translate(260%, -75%);
+        opacity: 0;
+    }
+    to{
+        transform: translate(260%,-44%);
+        opacity: 1;
+    }
+}
+
+
+@keyframes dropIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-200px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .drop-text {
+    animation: dropIn 1s ease forwards;
+  }
+  
+
+  #products_div{
+    position: fixed;
+    transform: translateY(200px);
+    height: 160px;
+    width: 100%;
+  }
+
+  #products_example{
+    position: fixed;
+    transform: translate(850px,150px);
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium Cond';
+    color: '#0a9fc7';
+  }
+
+
+
+
+  
+
+  
+  
+
+  
